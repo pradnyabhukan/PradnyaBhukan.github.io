@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#music1{
+    animation: fadeInUpBig 1s infinite ;
+}
+
+#music2{
+    animation: fadeInUpBig 1s infinite ;
+}
+    
+#music3{
+    animation: fadeInUpBig 1s infinite ;
+}
+
+#music4{
+    animation: fadeInUpBig 1s infinite ;
+}
+    
+#music5{
+    animation: fadeInUpBig 1s infinite ;
+}
+    
+#music6{
+    animation: fadeInUpBig 1s infinite ;
+}
+            
+@keyframes fadeInUpBig {
+    0% {
+           opacity: 0;
+           transform: translateY(20px);
+        }
+    100% {
+           opacity: 1;
+           transform: translateY(0px);
+        }
+} 
+  
+#sun{
+    animation: fadeIn 1.8s infinite;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} 
+
+
+@keyframes blinking{
+    0%{     opacity: 0;    }
+    49%{    opacity: 1; }
+    60%{    opacity: 0; }
+    99%{    opacity: 1; }
+    100%{   opacity: 0;  }
+}
+#l1{
+    animation:blinking 1.5s infinite;
+}
+
+#l2{
+    animation:blinking2 1.5s infinite;
+}
+@keyframes blinking2{
+    0%{     opacity: 1;    }
+    49%{    opacity: 0; }
+    60%{    opacity: 1; }
+    99%{    opacity: 0; }
+    100%{   opacity: 1;  }
+}
+#l3{
+    animation:blinking 1.5s infinite;
+}
+
+#l4{
+    animation:blinking2 1.5s infinite;
+}#l6{
+    animation:blinking 1.5s infinite;
+}
+
+#l5{
+    animation:blinking2 1.5s infinite;
+}#l7{
+    animation:blinking 1.5s infinite;
+}
+
+#l8{
+    animation:blinking2 1.5s infinite;
+}
+#l10{
+    animation:blinking 1.5s infinite;
+}
+
+#l9{
+    animation:blinking2 1.5s infinite;
+}
+
+#headPhoneRight{
+    animation: moveRight 1s infinite;
+}
+@keyframes moveRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(10px);
+    }
+  }
+  #headPhoneLeft{
+    animation: moveLeftt 1s infinite;
+}
+@keyframes moveLeftt {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-10px);
+    }
+  }
+
+  #cartoon{
+      animation: bounce 2s infinite;
+  }
+  @keyframes bounce{
+      20%,50%,80%,to{
+        transform: translateY(0);
+      }
+      40%{
+          transform:translateY(-15%);
+      }
+      70%{
+          transform: translateY(-10%);
+      }
+      90%{
+          transform: translateY(-4%);
+      }
+  }
